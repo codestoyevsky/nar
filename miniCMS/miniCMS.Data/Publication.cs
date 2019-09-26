@@ -2,6 +2,6 @@
 {
    public class Publication : Base
    {
-      public string Name { get; set; }
+      public string Logo { get; set; }
    }
 }
