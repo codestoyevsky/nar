@@ -2,18 +2,18 @@
 
 namespace miniCMS.Data
 {
-   public class PublicationDetail
+   public class PopUpDetail : Base
    {
       [Required]
-      public int PublicationId { get; set; }
+      public int PopUpId { get; set; }
 
       [Required]
       public int LanguageId { get; set; }
 
       [Required]
-      public string Name { get; set; }
+      public string Title { get; set; }
 
       [Required]
-      public string Title { get; set; }
+      public string Text { get; set; } 
    }
 }

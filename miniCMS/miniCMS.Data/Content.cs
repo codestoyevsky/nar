@@ -1,7 +1,10 @@
-﻿namespace miniCMS.Data
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace miniCMS.Data
 {
    public class Content : Base
    {
+      [Required]
       public int PublicationId { get; set; }
 
       public string Image { get; set; }

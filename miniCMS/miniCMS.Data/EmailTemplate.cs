@@ -2,12 +2,12 @@
 
 namespace miniCMS.Data
 {
-   class PublicationUser : Base
+   public class EmailTemplate : Base
    {
       [Required]
-      public int UserId { get; set; }
+      public int PublicationID { get; set; }
 
       [Required]
-      public int PublicationId { get; set; }
+      public string Code { get; set; }
    }
 }

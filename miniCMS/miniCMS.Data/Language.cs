@@ -2,12 +2,12 @@
 
 namespace miniCMS.Data
 {
-   class PublicationUser : Base
+   public class Language : Base
    {
       [Required]
-      public int UserId { get; set; }
+      public string Name { get; set; }
 
       [Required]
-      public int PublicationId { get; set; }
+      public string Culture { get; set; }
    }
 }
